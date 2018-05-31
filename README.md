@@ -10,11 +10,12 @@ for run the server write this command . 5000 is port :
 ```
 $ python manage.py runserver 5000
 ```
-
+for create ```models.py``` and ```tests.py``` and ```views.py``` and ...
 ```
 $ python manage.py startapp myname_api
 ```
-for migrate the model(DB) write this command :
+
+if you migrate the model(DB) write this command :
 ```
 $ python manage.py makemigrations
 ```
@@ -23,6 +24,7 @@ for create the tables in the database:
 ```
 $ python manage.py migrate
 ```
+and if you add model in models should to write 2 top command again.
 
 for open shell project:
 ```
